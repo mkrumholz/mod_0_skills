@@ -1,0 +1,16 @@
+// instance
+The ZON Duty Free KLIA
+
+// attributes
+name = "The ZON Duty Free KLIA"
+terminal_location = 5
+number_of_employees = 3
+employees = [ "Chelsea Tan", "Farah Tan", "Som Sayid" ]
+product_categories = [ "Perfume", "Liquor", "Candy" ]
+is_open = false
+
+// methods
+open_store: Updates is_open to true
+hire_employee: Updates number_of_employees to 4, updates employees to [ "Chelsea Tan", "Farah Tan", "Som Sayid", "Janet Che" ]
+fire_employee: Updates number_of_employees to 3, updates employees to [ "Chelsea Tan", "Som Sayid", "Janet Che" ]
+add_product_category: Updates product_categories to [ "Perfume", "Liquor", "Candy", "Electronics" ]
