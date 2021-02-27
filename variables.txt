@@ -1,0 +1,13 @@
+movie = "Fight Club"
+is_entertaining = true
+
+movie = "North by Northwest"
+num_4 = 400
+num_6 = 600
+product = num_4 * num_6
+
+favorite_foods = [ "butter", "cream", "ice cream" ]
+
+favorite_foods = favorite_foods.drop(1)
+
+p movie.length
