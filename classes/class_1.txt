@@ -1,0 +1,16 @@
+// class
+Passenger
+
+// attributes
+name(str)
+seat(str)
+connecting_flights(array)
+air_miles(int)
+has_boarded(bool)
+
+
+// methods
+change_seat (updates seat attribute)
+board_plane (updates has_boarded to true)
+confirm_arrival (updates air_miles to include miles from that flight)
+add_connecting_flight (adds a connecting flight to connecting_flights array)
