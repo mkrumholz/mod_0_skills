@@ -1,0 +1,16 @@
+// class
+DutyFreeShop
+
+// attributes
+name(str)
+terminal_location(int)
+number_of_employees(int)
+employees(array)
+product_categories(array)
+is_open(bool)
+
+// methods
+open_store (updates is_open to true)
+hire_employee (adds new employee to employees array, adds 1 to number_of_employees)
+fire_employee (removes employee from employees array, subtracts 1 from number_of_employees )
+add_product_category (adds a category to product_categories array)
