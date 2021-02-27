@@ -1,0 +1,16 @@
+// instance
+"Jamie Brown"
+
+// attributes
+name = "Jamie Brown"
+seat = "18B"
+connecting_flights = [ "KL1482", "KL1484" ]
+air_miles = 31942
+has_boarded = false
+
+
+// methods
+change_seat: updates seat to "18C"
+board_plane: updates has_boarded to true
+confirm_arrival: updates air_miles to 32870
+add_connecting_flight: updates connecting_flights to [ "KL1482", "KL1484", "BA8372" ]
